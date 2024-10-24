@@ -22,8 +22,8 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: #333;
-  color: #fff;
+  background-color: #f5f7f8;
+  color: #0b192c;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@ main {
 }
 
 section {
-  border: 1px solid whitesmoke;
+  border: 1px solid #0b192c;
   border-radius: 10px;
   padding: 0.5rem;
 }
@@ -69,21 +69,21 @@ section {
 .newItemEntry__input {
   width: calc(100% - (0.25rem + 48px));
   flex-grow: 1;
-  border: 2px solid whitesmoke;
+  border: 2px solid #0b192c;
   border-radius: 10px;
   padding: 0.5em;
 }
 
 .newItemEntry__button {
   background-color: transparent;
-  color: whitesmoke;
-  border: 3px dashed whitesmoke;
+  color: #0b192c;
+  border: 3px dashed #0b192c;
   padding: 0.75em;
 }
 
 .newItemEntry__button:hover,
 .newItemEntry__button:focus {
-  color: limegreen;
+  color: #48cfcb;
 }
 
 .listContainer {
@@ -102,7 +102,7 @@ section {
 
 .listTitle__button {
   background-color: transparent;
-  color: whitesmoke;
+  color: #0b192c;
   padding: 0.25em;
 }
 
